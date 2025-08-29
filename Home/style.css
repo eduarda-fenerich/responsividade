@@ -3,3 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #8F4F0F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
