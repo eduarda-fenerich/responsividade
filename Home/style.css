@@ -1,3 +1,13 @@
+:root{
+    --marrom: #8F4F0F;
+    --marrom2: #E59B67;
+    --roxo: #10002B;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --branco2: #D9D9D9;
+
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -10,4 +20,45 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.s1{
+    width: 100%;
+    height: auto;
+}
+
+.img-s1{
+    width: 100%;
+
+}
+
+.title{
+    font-family: "Merriweather", serif;
+    color: #10002B;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.frase{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-family: "Merriweather", serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+}
+
+.line{
+    background-color:#FFFFFF;
+    height: 1px;
+    border: #FFFFFF;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
