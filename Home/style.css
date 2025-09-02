@@ -39,6 +39,7 @@ body{
     margin-left: 20px;
     font-size: 48px;
     font-weight: bolder;
+    text-align: center;
 }
 
 .frase{
@@ -61,4 +62,17 @@ body{
     width: 90%;
     margin: 0 auto;
     margin-bottom: 40px;
+}
+
+@media (width >= 768px){
+    .img-s1{
+        display: none;
+    }
+    .s1{
+        background-image: url('./imagens/computer1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 90vh;
+    }
 }
