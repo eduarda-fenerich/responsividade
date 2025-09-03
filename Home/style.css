@@ -70,8 +70,8 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 4vh;
-    min-height: 80vh;
+    gap: 15vh;
+    min-height: 50vh;
     height: auto;
 }
 
@@ -80,6 +80,7 @@ body{
     border-radius: 20px;
     box-shadow: 0 4px 20px #8F4F0F;
     width: 300px;
+    height: 380px;
     overflow: hidden;
     min-height: 300px;
 }
@@ -96,15 +97,63 @@ body{
     overflow: hidden;
 }
 
+.bottom-card{
+    padding: 10px;
+}
+
+.bottom-card p{
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+}
+
+button{
+    background-color: #D9D9D9;
+    color:#000000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 223px;
+    height: 56px;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    transform: all 200ms linear;
+}
+
+.line2{
+    display: none;
+}
+
+.line3{
+    display: none;
+}
+
 @media (width >= 768px){
-    .img-s1{
-        display: none;
-    }
-    .s1{
-        background-image: url('./imagens/choc1.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        min-height: 90vh;
-    }
+
+.frase{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 45px;
+    width: 800px;
+    margin: 50px auto;
+}
+
+
+
+.line3{
+    width: 90vw;
+    height: 1px;
+    border: #FFFFFF;
+    background-color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
 }
