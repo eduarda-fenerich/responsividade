@@ -3,3 +3,58 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.formulario{
+    background-color: #743002b1;
+    border: 2px solid #000000;
+    padding: 20px;
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 10px;
+}
+
+.formulario label{
+    margin-bottom: -6px;
+}
+
+.formulario input{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    border: 2px solid #000000;
+    color: #000000;
+}
+
+.formulario button{
+    padding: px;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.formulario button:hover{
+   cursor: pointer;
+   opacity: 0.8;
+}
+
+body{
+    background-image: url("./imagens/mensagem.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.name{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
