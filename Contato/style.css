@@ -31,9 +31,11 @@
 }
 
 .formulario button{
-    padding: px;
+    padding: 9px;
     border-radius: 8px;
     opacity: 1;
+    width: 80px;
+    margin: 0 auto;
 }
 
 .formulario button:hover{
@@ -54,7 +56,15 @@ body{
     padding: 50px;
 }
 
+section{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0.442);
+}
+
 .name{
     color: rgb(0, 0, 0);
     text-align: center;
 }
+
